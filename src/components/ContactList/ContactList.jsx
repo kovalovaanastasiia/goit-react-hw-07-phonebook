@@ -12,10 +12,10 @@ export const ContactList = () => {
 
   return (
     <StyledList>
-      {filteredContacts.map(({ id, name, phone }) => (
+      {filteredContacts.map(({ id, name, number }) => (
         <li className='list-item' key={id}>
           <p>{name}</p>
-          <span>{phone}</span>
+          <span>{number}</span>
           <button
             type='button'
             className='delete-button'
