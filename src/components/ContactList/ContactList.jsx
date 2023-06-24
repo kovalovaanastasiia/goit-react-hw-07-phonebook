@@ -2,7 +2,7 @@ import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
 import {selectFilteredContacts} from "../../redux/selectors";
-import {deleteContact} from "../../redux/api";
+import {deleteContact} from "../../operations/operations";
 
 import {StyledList} from './styled';
 

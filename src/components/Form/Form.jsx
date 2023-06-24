@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-import {addContact, fetchContacts} from "../../redux/api";
+import {addContact, fetchContacts} from "../../operations/operations";
 import {selectContacts} from "../../redux/selectors";
 
 import {toast} from "react-toastify";
